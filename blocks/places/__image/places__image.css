@@ -1,0 +1,5 @@
+.places__image {
+    grid-area: image;
+    min-height: 460px;
+    width: 100%;
+}

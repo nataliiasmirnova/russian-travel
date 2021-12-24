@@ -4,4 +4,17 @@
     font-weight: 700;
     margin: 0;
     text-align: left;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__list-item {
+        max-width: calc(100% - 24px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__list-item {
+        max-width: calc(100% - 16px);
+    }
 }

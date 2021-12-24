@@ -1,0 +1,25 @@
+.places__place {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    row-gap: 48px;
+    column-gap: 40px;
+    grid-template-areas: "title website" "image text";
+    padding: 0 48px 80px;
+}
+
+.places__place:last-child {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .places__place {
+        padding: 0 24px 73px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__place {
+        grid-template-areas: "title" "website" "image" "text";
+        padding: 0 0 66px;
+    }
+}
