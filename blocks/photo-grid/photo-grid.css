@@ -2,18 +2,18 @@
     max-width: 1280px;
     min-width: 320px;
     margin: 0 auto;
-    padding: 92px 48px;
+    padding: 76px 48px 92px;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 1023px) {
     .photo-grid {
-        padding: 88px 24px;
+        padding: 72px 24px 88px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .photo-grid {
-        padding: 64px 16px;
+        padding: 48px 16px 64px;
     }
 }
