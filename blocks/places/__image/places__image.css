@@ -1,5 +1,23 @@
 .places__image {
     grid-area: image;
-    min-height: 460px;
+    max-height: 460px;
     width: 100%;
+}
+
+@media screen and (max-width: 1184px) {
+    .places__image {
+        max-height: 440px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places__image {
+        max-height: 340px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__image {
+        max-height: 320px;
+    }
 }
