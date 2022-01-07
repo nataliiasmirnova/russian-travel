@@ -6,17 +6,3 @@
     max-width: 100%;
     text-align: left;
 }
-
-
-/*@media screen and (max-width: 1023px) {
-    .intro__text {
-        max-width: calc(100% - 48px);
-    }
-}*/
-
-@media screen and (max-width: 767px) {
-    .intro__text {
-        max-width: calc(100% - 32px);
-        margin: 0 0 34px;
-    }
-}
