@@ -5,6 +5,7 @@
     font-weight: 900;
     text-align: left;
     margin: 0;
+    width: 97%;
 }
 
 @media screen and (max-width: 1023px) {
