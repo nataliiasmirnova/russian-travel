@@ -1,11 +1,12 @@
 .places__title {
     grid-area: title;
+    display: block;
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;
     text-align: left;
     margin: 0;
-    width: 97%;
+    width: 90%;
 }
 
 @media screen and (max-width: 1023px) {
